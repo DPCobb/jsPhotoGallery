@@ -1,0 +1,38 @@
+body{
+    padding:0;
+    margin:0;
+}
+.photo-gallery{
+    width:50%;
+    margin:2% auto;
+    display:block;
+    height:500px;
+}
+
+.photo-gallery img{
+    width:100%;
+    display:none;
+}
+
+.photo-gallery .active-image{
+    display:block;
+}
+.controls{
+    display:block;
+    width:50%;
+    margin:2% auto;
+    text-align: center;
+}
+#next, #previous{
+    width:15%;
+    font-size:48pt;
+    padding:20px;
+}
+
+#next:hover, #previous:hover{
+    cursor: pointer;
+}
+
+#previous{
+    margin-right:100px;
+}
